@@ -1,0 +1,24 @@
+{
+    "configs": {
+        "use_tex": true,
+        "show_figs": true,
+        "save_figs": true,
+        "model": "predict_y_from_polynomial",
+        "nbr_parameters": 2,
+        "nbr_bins": 81,
+        "nbr_warmup": 1000,
+        "nbr_samples": 10000,
+        "nbr_walkers": 32
+    },
+    "results": {
+        "theta_mean": [
+            -11.356385633831112,
+            -0.175214704310433
+        ],
+        "theta_max_likelihood": [
+            -11.474518914964335,
+            -0.177210696741004
+        ],
+        "goodness_of_fit": 794.9816039781264
+    }
+}

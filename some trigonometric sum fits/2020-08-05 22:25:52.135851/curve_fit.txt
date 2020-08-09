@@ -1,6 +1,0 @@
-predict_y       predict_y_from_cosines
-nbr_parameters  6
-nbr_walkers     32
-nbr_warmup      1000
-nbr_samples     10000
-goodness_of_fit 804.41

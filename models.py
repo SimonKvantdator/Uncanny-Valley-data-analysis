@@ -38,6 +38,9 @@ def predict_y_from_piecewise_linear(theta, x):
 	T = max(x) - min(x)
 	t = (x - min(x)) / T
 
-	X_d = np.array([relu(t - n / len(theta[1:])) for n in range(0, len(theta[1:]))]).T # design matrix
-	y_pred = X_d @ theta[1:] + theta[0]
+	if len(theta) > 1:
+		X_d = np.array([relu(t - n / len(theta[1:])) for n in range(0, len(theta[1:]))]).T # design matrix
+		y_pred = X_d @ theta[1:] + theta[0]
+	else:
+		y_pred = theta[0] * np.ones_like(x)
 	return y_pred

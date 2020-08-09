@@ -96,7 +96,7 @@ if configs['show_figs'] or configs['save_figs']:
 		quantiles=[0.16, 0.5, 0.84],
 		bins = configs['nbr_walkers'],
 		show_titles=True,
-		title_fmt='.4f',
+		title_fmt='.3f',
 		labels=tex_labels)
 
 
@@ -125,7 +125,7 @@ goodness_of_fit = configs['nbr_parameters'] * np.log(len(x_data)) - 2.0 * log_li
 
 # save results
 curve_fit_results = {} # initialize dict
-curve_fit_results['mean_theta'] = theta_mean.tolist()
+curve_fit_results['theta_mean'] = theta_mean.tolist()
 curve_fit_results['theta_max_likelihood'] = theta_max_likelihood.tolist()
 curve_fit_results['goodness_of_fit'] = goodness_of_fit
 
@@ -166,7 +166,7 @@ os.mkdir(folder_name)
 curve_fit_configs_and_results = {} # initialize
 curve_fit_configs_and_results['configs'] = commentless_configs
 curve_fit_configs_and_results['results'] = curve_fit_results
-with open(folder_name + '/curve_fit_data.json', 'w') as curve_fit_configs_and_results_file:
+with open(folder_name + '/curve_configs_and_results.json', 'w') as curve_fit_configs_and_results_file:
 	json.dump(curve_fit_configs_and_results, curve_fit_configs_and_results_file, indent=4)
 	curve_fit_configs_and_results_file.close()
 

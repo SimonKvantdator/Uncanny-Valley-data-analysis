@@ -1,0 +1,30 @@
+{
+    "configs": {
+        "use_tex": true,
+        "show_figs": true,
+        "save_figs": true,
+        "model": "predict_y_from_polynomial",
+        "nbr_parameters": 5,
+        "nbr_bins": 81,
+        "nbr_warmup": 1000,
+        "nbr_samples": 10000,
+        "nbr_walkers": 32
+    },
+    "results": {
+        "theta_mean": [
+            -32.17533313331457,
+            -0.6429081616074935,
+            0.006634135146048072,
+            8.98275207013635e-05,
+            -2.584254535476131e-07
+        ],
+        "theta_max_likelihood": [
+            -32.274696904433824,
+            -0.645684703715899,
+            0.006619302302571236,
+            8.988279792023906e-05,
+            -2.5688450020194316e-07
+        ],
+        "goodness_of_fit": 800.4990835299346
+    }
+}

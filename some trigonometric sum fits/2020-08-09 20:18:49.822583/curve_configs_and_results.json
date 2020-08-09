@@ -1,0 +1,26 @@
+{
+    "configs": {
+        "use_tex": true,
+        "show_figs": true,
+        "save_figs": true,
+        "model": "predict_y_from_cosines",
+        "nbr_parameters": 3,
+        "nbr_bins": 81,
+        "nbr_warmup": 1000,
+        "nbr_samples": 10000,
+        "nbr_walkers": 32
+    },
+    "results": {
+        "theta_mean": [
+            -14.880354425000382,
+            14.180006572707335,
+            10.134557455241001
+        ],
+        "theta_max_likelihood": [
+            -14.947842095057478,
+            14.299245806045466,
+            9.941092664041477
+        ],
+        "goodness_of_fit": 796.9844466116035
+    }
+}

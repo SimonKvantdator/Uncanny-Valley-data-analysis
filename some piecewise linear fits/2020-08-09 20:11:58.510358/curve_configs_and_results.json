@@ -1,0 +1,30 @@
+{
+    "configs": {
+        "use_tex": true,
+        "show_figs": true,
+        "save_figs": true,
+        "model": "predict_y_from_piecewise_linear",
+        "nbr_parameters": 5,
+        "nbr_bins": 81,
+        "nbr_warmup": 1000,
+        "nbr_samples": 10000,
+        "nbr_walkers": 32
+    },
+    "results": {
+        "theta_mean": [
+            -1.730987397358966,
+            36.14631452864613,
+            -170.6440550011411,
+            33.75326897315012,
+            366.30739461091787
+        ],
+        "theta_max_likelihood": [
+            -1.908470232113317,
+            37.571892655928465,
+            -174.07687851367075,
+            35.88380239707284,
+            368.6358130330269
+        ],
+        "goodness_of_fit": 801.5544810474095
+    }
+}
