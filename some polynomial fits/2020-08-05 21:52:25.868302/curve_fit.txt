@@ -1,0 +1,6 @@
+predict_y       predict_y_from_polynomial
+nbr_parameters  3
+nbr_walkers     32
+nbr_warmup      1000
+nbr_samples     10000
+goodness_of_fit 798.88
