@@ -2,7 +2,20 @@
 
 This project is a recreation of part of the data analysis done in Mathur and Reichling's article, [Navigating a social world with robot partners: A quantitative cartography of the Uncanny Valley](https://www.sciencedirect.com/science/article/pii/S0010027715300640?via%3Dihub). Specifically, I wanted to recreate their Fig 3A. My main idea was to question the curve fit. I don't think the data is sufficient to conclude the shape of the curve, and the evidence for an uncanny valley is relatively weak.
 
-I used the emcee python implementation of Markov Chain Monte Carlo sampling to perform a Bayesian data analysis of the data Mathur and Reichling presents in Fig 3A. I produced some of my own curve fits, placed in the folders *some piecewise linear fits*, *some polynomial fits*, and *some trigonometric sum fits*, using linear models with different basis functions. Using a goodness-of-fit metric (Bayesian information criterion) that punishes over-complicated models, I could see that the "uncanny valley" as produced by a third degree polynomial curve fit did not perform better than a zeroth or first degree polynomial curve fit where there were no valley.
+I used the emcee python implementation of Markov Chain Monte Carlo sampling to perform a Bayesian data analysis of the data Mathur and Reichling presents in Fig 3A. I produced some of my own curve fits, placed in the folders *some piecewise linear fits*, *some polynomial fits*, and *some trigonometric sum fits*, using linear models with different basis functions. Using a goodness-of-fit metric (Bayesian information criterion) that punishes more complicated models, I could see that the "uncanny valley" as produced by a third degree polynomial curve fit did not perform better than a zeroth or first degree polynomial curve fits.
+In those two other curve fits, the valley was not present.
+
+Here is the third degree polynomial curve fit suggested by the article:
+![](https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A46%3A24.244551/curve_fit.pdf)
+It had goodness of fit score 796.2 (lower is better).
+
+Here is a first degree polynomial curve fit:
+![](https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A44%3A16.811599/curve_fit.pdf)
+It has goodness of fit score 795.0.
+
+Here is a zeroth degree polynomial curve fit:
+![](https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A43%3A19.710679/curve_fit.pdf)
+It has goodness of fit score 795.1.
 
 The data from Mathur and Reichling's article is in *2015-06-21_expt_1B_1C_face_means.csv*, and was fetched from [here](https://osf.io/3rjnk/).
 
