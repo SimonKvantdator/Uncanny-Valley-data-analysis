@@ -6,7 +6,15 @@ I used the emcee python implementation of Markov Chain Monte Carlo sampling to p
 In those two other curve fits, the valley was not present.
 
 Here is the third degree polynomial curve fit suggested by the article:
+
 ![](some polynomial fits/2020-08-09 19:46:24.244551/curve_fit.pdf)
+<object data="https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A46%3A24.244551/curve_fit.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A46%3A24.244551/curve_fit.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A46%3A24.244551/curve_fit.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+
 It had goodness of fit score 796.2 (lower is better).
 
 Here is a first degree polynomial curve fit:
