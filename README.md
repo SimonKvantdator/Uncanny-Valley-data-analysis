@@ -5,16 +5,16 @@ This project is a recreation of part of the data analysis done in Mathur and Rei
 I used the emcee python implementation of Markov Chain Monte Carlo sampling to perform a Bayesian data analysis of the data Mathur and Reichling presents in Fig 3A. I produced some of my own curve fits, placed in the folders *some piecewise linear fits*, *some polynomial fits*, and *some trigonometric sum fits*, using linear models with different basis functions. Using a goodness-of-fit metric (Bayesian information criterion) that punishes more complicated models, I could see that the "uncanny valley" as produced by a third degree polynomial curve fit did not perform better than a zeroth or first degree polynomial curve fits.
 In those two other curve fits, the valley was not present.
 
-Here is the third degree polynomial curve fit suggested by the article:
-![](some polynomial fits/2020-08-09 19:46:24.244551/curve_fit.png)
+Here is the third degree polynomial curve fit suggested by the article:\
+<img src="https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A46%3A24.244551/curve_fit.png" width="400">\
 It had goodness of fit score 796.2 (lower is better).
 
-Here is a first degree polynomial curve fit:
-![](some polynomial fits/2020-08-09 19:44:16.811599/curve_fit.png)
+Here is a first degree polynomial curve fit:\
+<img src="https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A44%3A16.811599/curve_fit.png" width="400">\
 It has goodness of fit score 795.0.
 
-Here is a zeroth degree polynomial curve fit:
-![](some polynomial fits/2020-08-09 19:43:19.710679/curve_fit.png)
+Here is a zeroth degree polynomial curve fit:\
+<img src="https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A43%3A19.710679/curve_fit.png" width="400">\
 It has goodness of fit score 795.1.
 
 The data from Mathur and Reichling's article is in *2015-06-21_expt_1B_1C_face_means.csv*, and was fetched from [here](https://osf.io/3rjnk/).
