@@ -6,15 +6,15 @@ I used the emcee python implementation of Markov Chain Monte Carlo sampling to p
 In those two other curve fits, the valley was not present.
 
 Here is the third degree polynomial curve fit suggested by the article:
-![](some polynomial fits/2020-08-09 19:46:24.244551/curve_fit.pdf)
+![](some polynomial fits/2020-08-09 19:46:24.244551/curve_fit.png)
 It had goodness of fit score 796.2 (lower is better).
 
 Here is a first degree polynomial curve fit:
-![](some polynomial fits/2020-08-09 19:44:16.811599/curve_fit.pdf)
+![](some polynomial fits/2020-08-09 19:44:16.811599/curve_fit.png)
 It has goodness of fit score 795.0.
 
 Here is a zeroth degree polynomial curve fit:
-![](some polynomial fits/2020-08-09 19:43:19.710679/curve_fit.pdf)
+![](some polynomial fits/2020-08-09 19:43:19.710679/curve_fit.png)
 It has goodness of fit score 795.1.
 
 The data from Mathur and Reichling's article is in *2015-06-21_expt_1B_1C_face_means.csv*, and was fetched from [here](https://osf.io/3rjnk/).
