@@ -17,6 +17,8 @@ Here is a zeroth degree polynomial curve fit:\
 <img src="https://raw.githubusercontent.com/SimonKvantdator/Uncanny-valley-data-analysis/master/some%20polynomial%20fits/2020-08-09%2019%3A43%3A19.710679/curve_fit.png" width="400">\
 It has goodness of fit score 795.1.
 
+Note that in all of the three cases above, much fewer than 67 % of the data falls inside of the 1-sigma interval.
+
 The data from Mathur and Reichling's article is in *2015-06-21_expt_1B_1C_face_means.csv*, and was fetched from [here](https://osf.io/3rjnk/).
 
 
